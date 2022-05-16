@@ -15,3 +15,87 @@
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between; }
+
+.header .container__navigation-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .header .container__navigation-header .container__navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .header .container__navigation-header .container__navigation .container__btn-buy a {
+      padding: 14px 18px 12px 18px;
+      background-color: #DDDBDA;
+      color: #3F3B3D; }
+      .header .container__navigation-header .container__navigation .container__btn-buy a:hover {
+        background-color: #ff0404;
+        color: white; }
+    .header .container__navigation-header .container__navigation ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .header .container__navigation-header .container__navigation ul li {
+        padding: 40px; }
+      .header .container__navigation-header .container__navigation ul a {
+        text-align: center;
+        color: #3F3B3D; }
+        .header .container__navigation-header .container__navigation ul a:hover {
+          border-bottom: 2px solid #3F3B3D; }
+    .header .container__navigation-header .container__navigation .container__auxiliary-icon {
+      padding: 0 24px; }
+
+.main .container__first-img {
+  margin: 80px auto;
+  max-height: 500px; }
+  .main .container__first-img .container__img-meet .container__img-btn {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #3F3B3D;
+    padding: 256px 768px 70px 64px;
+    max-width: 370px; }
+    .main .container__first-img .container__img-meet .container__img-btn h2 {
+      color: #FFFFFF;
+      font-family: 'Roboto';
+      font-size: 33px;
+      line-height: 42.5px; }
+    .main .container__first-img .container__img-meet .container__img-btn .links__atcive {
+      color: #FFFFFF;
+      background-color: #F14814;
+      padding: 11px 26px;
+      font-family: 'Roboto';
+      font-size: 16px;
+      line-height: 21.33px;
+      border: 2px solid transparent;
+      max-width: 178px; }
+      .main .container__first-img .container__img-meet .container__img-btn .links__atcive:hover {
+        background-color: #3F3B3D;
+        border: 2px solid #F14814; }
+    .main .container__first-img .container__img-meet .container__img-btn a {
+      color: #FFFFFF;
+      font-size: 16px;
+      line-height: 21.33px;
+      font-family: 'roboto';
+      max-width: 198px;
+      padding: 11px 26px;
+      border: 2px solid transparent; }
+      .main .container__first-img .container__img-meet .container__img-btn a:hover {
+        border: 2px solid #F14814; }
+  .main .container__first-img .container__img-background {
+    position: relative;
+    z-index: 1;
+    left: 40%;
+    top: -562px; }

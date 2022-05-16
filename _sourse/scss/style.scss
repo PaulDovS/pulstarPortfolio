@@ -12,3 +12,97 @@
     justify-content: space-between;
 }
 
+.header {
+    .container__navigation-header {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        .container__header-logo{}
+        .container__navigation {
+            display: flex;
+            align-items: center;
+            .container__btn-buy {
+                a {
+                    padding: 14px 18px 12px 18px;
+                    background-color: #DDDBDA;
+                    color: #3F3B3D;
+                    &:hover {
+                        background-color: rgb(255, 4, 4);
+                        color: white;
+                    }
+                }
+            }
+            ul {
+                display: flex;
+                li {
+                    padding: 40px;
+                }
+                a {
+                    text-align: center;
+                    color: #3F3B3D;
+                    &:hover {
+                        border-bottom: 2px solid #3F3B3D;
+                    }
+                }
+            }
+            .container__auxiliary-icon {
+                padding: 0 24px;
+            }
+        }
+    }
+}
+
+.main {
+    .container__first-img {
+        margin: 80px auto;
+        max-height: 500px;
+        .container__img-meet {
+            .container__img-btn {
+                // display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: #3F3B3D;
+                padding: 256px 768px 70px 64px;
+                max-width: 370px;
+                h2 {
+                    color: #FFFFFF;
+                    font-family: 'Roboto';
+                    font-size: 33px;
+                    line-height: 42.5px;
+                }
+                .links__atcive {
+                    color: #FFFFFF;
+                    background-color: #F14814;
+                    padding: 11px 26px;
+                    font-family: 'Roboto';
+                    font-size: 16px;
+                    line-height: 21.33px;
+                    border: 2px solid transparent;
+                    max-width: 178px;
+                    &:hover {
+                        background-color: #3F3B3D;
+                        border: 2px solid #F14814;
+                    }
+                }
+                a {
+                    color: #FFFFFF;
+                    font-size: 16px;
+                    line-height: 21.33px;
+                    font-family: 'roboto';
+                    max-width: 198px;
+                    padding: 11px 26px;
+                    border: 2px solid transparent;
+                    &:hover {
+                        border: 2px solid #F14814;
+                    }
+                }
+            }
+        }
+        .container__img-background {
+            position: relative;
+            z-index: 1;
+            left: 40%;
+            top: -562px;
+        }
+    }
+}
