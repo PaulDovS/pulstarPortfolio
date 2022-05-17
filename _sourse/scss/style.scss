@@ -105,4 +105,87 @@
             top: -562px;
         }
     }
+    .container__second-information {
+        .container__information {
+            span {
+                color: #F14814;
+                font-family: 'roboto';
+                font-size: 12px;
+                line-height: 16px;
+                letter-spacing: 1px;
+                text-align: center;
+                margin: 0 auto;
+                max-width: 98px;
+                display: grid;
+                padding-bottom: 16px;
+            }
+            h3 {
+                font-family: 'roboto';
+                font-size: 27px;
+                letter-spacing: 0.35px;
+                line-height: 37px;
+                text-align: center;
+                margin: 0 auto;
+                max-width: 700px;
+                padding-bottom: 59px;
+            }
+        }
+        .container__description-advantages {
+            display: flex;
+            justify-content: space-between;
+            max-width: 800px;
+            margin: 0 auto;
+            .container__advantages {
+                align-items: center;
+                margin: 0 auto;
+                display: grid;
+                text-align: center;
+                img {
+                    margin: 0 auto;
+                }
+                h4 {
+                    font-size: 21px;
+                    line-height: 24px;
+                    text-align: center;
+                    font-family: 'roboto';
+                    color: #3F3B3D;
+                }
+                p {
+                    font-family: 'roboto';
+                    font-size: 12px;
+                    line-height: 16px;
+                    text-align: center;
+                    color: #3F3B3D;
+                }
+            }
+        }
+    }
+    .container__catalog {
+        padding: 64px 0 8px 0;
+        margin-bottom: 40px;
+        .container__catalog-items {
+            display: flex;
+            justify-content: space-between;
+            .catalog {
+                position: relative;
+                z-index: 1;
+                .container__price {
+                    position: relative;
+                    max-width: 397px;
+                    z-index: 2;
+                    padding: 12px 0;
+                    margin: -40px auto;
+                    display: flex;
+                    justify-content: space-between;
+                    border-top: 1px solid rgba(0, 0, 0, 0.08);
+                    span {
+                        text-transform: uppercase;
+                        font-family: 'Roboto';
+                        font-size: 12px;
+                        line-height: 16px;
+                    }
+                }
+            }
+        }
+    }
 }
