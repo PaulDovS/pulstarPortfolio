@@ -188,4 +188,37 @@
             }
         }
     }
+    .container__shop {
+        padding-bottom: 130px;
+        .container__img-shop { 
+            display: flex;
+            justify-content: space-between;
+            .container__description-shop {
+                position: relative;
+                z-index: 2;
+                margin: -98px auto;
+                color: #FFFFFF;
+                h2 {
+                    font-family: 'Roboto';
+                    font-size: 39px;
+                    line-height: 44px;
+                    letter-spacing: 0.44px;
+                    text-align: center;
+                    margin: 0;
+                }
+                p {
+                    font-family: 'roboto';
+                    font-size: 14px;
+                    font-weight: 18.66px;
+                    text-align: center;
+                }
+            }
+            .first__container {
+                img {
+                    position: relative;
+                    z-index: 1;
+                }
+            }
+        }
+    }
 }

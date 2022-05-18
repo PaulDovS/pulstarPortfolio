@@ -186,3 +186,33 @@
           font-family: 'Roboto';
           font-size: 12px;
           line-height: 16px; }
+
+.main .container__shop {
+  padding-bottom: 130px; }
+  .main .container__shop .container__img-shop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .main .container__shop .container__img-shop .container__description-shop {
+      position: relative;
+      z-index: 2;
+      margin: -98px auto;
+      color: #FFFFFF; }
+      .main .container__shop .container__img-shop .container__description-shop h2 {
+        font-family: 'Roboto';
+        font-size: 39px;
+        line-height: 44px;
+        letter-spacing: 0.44px;
+        text-align: center;
+        margin: 0; }
+      .main .container__shop .container__img-shop .container__description-shop p {
+        font-family: 'roboto';
+        font-size: 14px;
+        font-weight: 18.66px;
+        text-align: center; }
+    .main .container__shop .container__img-shop .first__container img {
+      position: relative;
+      z-index: 1; }
