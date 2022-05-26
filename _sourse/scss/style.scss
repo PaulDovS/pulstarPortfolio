@@ -221,4 +221,85 @@
             }
         }
     }
+    .container__reviews {
+        h2 { 
+            padding: 108px 0 31px 0;
+            margin: 0 auto;
+            font-family: 'Roboto';
+            font-size: 29px;
+            line-height: 35.2px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .container__reviews-real {
+            display: flex;
+            justify-content: space-around;
+            max-width: 1080px;
+            margin: 0 auto;
+            .container__img-reviews {}
+            .container__text-reviews {
+                width: 536px;
+                background-color: #DCEAE9;
+                p {
+                    max-width: 408px;
+                    font-size: 24px;
+                    text-align: center;
+                    line-height: 32px;
+                    font-family: 'roboto';
+                    color: #3F3B3D;
+                    padding: 203px 0 0 64px;
+                }
+                span {
+                    font-family: 'Roboto';
+                    font-size: 12px;
+                    line-height: 16px;
+                    text-align: center;
+                    margin: 0 auto;
+                    display: inherit;
+                }
+            }
+        }
+    }
+    .container__journal {
+        .container__journal-img {
+            position: relative;
+            z-index: 1;
+            .container__img-description {
+                max-width: 476px;
+                min-height: 218px;
+                background-color: #b94e2d;
+                position: relative;
+                z-index: 2;
+                span {
+                    font-family: 'Roboto';
+                    font-size: 12px;
+                    line-height: 16px;
+                    text-align: center;
+                    color: #5D6E67;
+                }
+                h4 {
+                    font-family: 'Roboto';
+                    font-size: 24px;
+                    line-height: 28.8px;
+                    text-align: center;
+                    color: #3F3B3D;
+                }
+                p {
+                    font-family: 'roboto';
+                    font-size: 16px;
+                    line-height: 21.33px;
+                    text-align: center;
+                    color: #3F3B3D;
+                }
+                a {
+                    font-size: 16px;
+                    font-weight: 700;
+                    font-family: 'roboto';
+                    line-height: 21.33px;
+                    text-align: center;
+                    color: #3F3B3D;
+                }
+            }
+        }
+    }
 }
